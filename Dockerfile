@@ -11,7 +11,8 @@ RUN gem install bundler:1.17.2 \
         rexml:3.2.4 \
         rouge:3.15.0 \
         unicode-display_width:1.6.1 \
-        jekyll:4.0.0
+        jekyll:4.0.0 \
+        jekyll-toc
 
 RUN gem uninstall public_suffix:4.0.6 \
                         concurrent-ruby:1.1.7 \
